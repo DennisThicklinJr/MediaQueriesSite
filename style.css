@@ -23,3 +23,56 @@ header{
     width: 100%;
     z-index: 1;
 }
+
+header h1{
+    color: white;
+    border: 8px solid white; 
+    /* padding: top, bottom ; left,right;  */
+    padding: 0.5rem 0.8rem;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    background-color: #feb614;
+    color: white;
+    padding: 2rem;
+}
+
+.banner h2{
+    font-size: 7.4rem;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
+}
+
+nav{
+    background-color: #f4f4f4;
+    padding: 1.2rem;
+    position: sticky;
+    top: 9rem;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 1.5rem;
+}
